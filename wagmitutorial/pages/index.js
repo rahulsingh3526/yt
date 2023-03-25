@@ -16,6 +16,7 @@ export default function Home() {
     address: '0x88cA02A16E98182FCeE19d550Dbd28355ae61779',
     abi: contractABI.abi,
     functionName: 'getNumber',
+    watch: true
   })
 
   const { config } = usePrepareContractWrite({
